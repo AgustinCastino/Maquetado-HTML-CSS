@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
@@ -86,7 +90,7 @@ header div p{
     background-repeat: no-repeat;
     background-position: right;
     background-size:contain;
-    height: 80vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -143,3 +147,24 @@ header div p{
     font-size: 12px;
 }
 /* FIN SECTION QUIENES SOMOS */
+
+/* SECTION GALERIA */
+#galeria{
+    min-height: 70vh;
+    margin-top: 5rem;
+    background-image: linear-gradient(to right, #F9D423, #FF4E50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#galeria figure img{
+    padding: 0 1rem;
+}
+
+#galeria h2{
+    padding: 60px 0 35px 0;
+}
+
+/* FIN SECTION GALERIA */
