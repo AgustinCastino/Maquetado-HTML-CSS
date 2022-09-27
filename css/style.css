@@ -8,6 +8,11 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+
 /* NAV */
 nav{
     background-color: black;
@@ -88,8 +93,6 @@ header div p{
 }
 
 #queHacemos div h2{
-    font-size: 48px;
-    font-weight: 700;
     margin-bottom: 1rem;
 }
 
@@ -100,3 +103,43 @@ header div p{
     width: 65%;
     font-weight: 400;
 }
+/* FIN SECTION QUE HACEMOS */
+
+/* SECTION QUIENES SOMOS */
+#quienesSomos{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#quienesSomos div{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 90px;
+}
+
+#quienesSomos div p{
+    line-height: 2rem;
+    padding: 25px 0;
+    font-weight: 400;
+}
+
+#quienesSomos figure{
+    width: 65%;
+}
+
+#quienesSomos figure img{
+    width: 100%;
+}
+
+#quienesSomos div a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    width: max-content;
+    padding: 20px 35px;
+    font-size: 12px;
+}
+/* FIN SECTION QUIENES SOMOS */
