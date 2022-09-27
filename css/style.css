@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* NAV */
+nav{
+    background-color: black;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    padding: 1rem 0;
+    width: 40%;
+    justify-content: space-around;
+    margin: auto;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+/* FIN NAV */
+
+/* HEADER */
+
+header{
+    background-image: url(../imagenes/caja1.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div{
+    border:15px solid white;
+    width: 1140px;
+    min-height: 450px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    
+    text-align: center;
+}
+
+header div h1{
+    font-size: 120px;
+}
+
+header div p{
+    font-size: 60px; 
+}
+
+/* FIN HEADER */
+
+/* SECTION QUE HACEMOS */
+
+#queHacemos{
+    margin: 5rem 10rem 0 10rem;
+}
+
+#queHacemos div{
+    background-image: url(../imagenes/caja2.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:contain;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#queHacemos div h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+#queHacemos div p{
+    background-color: white;
+    padding: 10px;
+    line-height: 2rem;
+    width: 65%;
+    font-weight: 400;
+}
