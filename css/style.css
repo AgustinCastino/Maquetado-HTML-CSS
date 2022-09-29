@@ -17,20 +17,21 @@ h2{
     font-weight: 700;
 }
 
+li{
+    list-style: none;
+}
+
 /* NAV */
 nav{
     background-color: black;
 }
 
-nav li{
-    list-style: none;
-}
-
 nav ul{
     display: flex;
+    justify-content: space-around;
+
     padding: 1rem 0;
     width: 40%;
-    justify-content: space-around;
     margin: auto;
 }
 
@@ -49,8 +50,11 @@ header{
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
+
     color: white;
+
     min-height: 100vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,9 +62,12 @@ header{
 
 header div{
     border:15px solid white;
+
     width: 1140px;
     min-height: 450px;
+
     background: rgba(0, 0, 0, 0.5);
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +97,9 @@ header div p{
     background-repeat: no-repeat;
     background-position: right;
     background-size:contain;
+
     min-height: 80vh;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,9 +111,11 @@ header div p{
 
 #queHacemos div p{
     background-color: white;
+
     padding: 10px;
-    line-height: 2rem;
     width: 65%;
+    
+    line-height: 2rem;
     font-weight: 400;
 }
 /* FIN SECTION QUE HACEMOS */
@@ -112,22 +123,25 @@ header div p{
 /* SECTION QUIENES SOMOS */
 #quienesSomos{
     margin-top: 5rem;
+
     display: flex;
     flex-direction: row-reverse;
 }
 
 #quienesSomos div{
     width: 35%;
+    margin: 0 90px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 90px;
 }
 
 #quienesSomos div p{
     line-height: 2rem;
-    padding: 25px 0;
     font-weight: 400;
+
+    padding: 25px 0;
 }
 
 #quienesSomos figure{
@@ -140,19 +154,23 @@ header div p{
 
 #quienesSomos div a{
     background-color: black;
+
     color: white;
     text-decoration: none;
+    font-size: 12px;
+
     width: max-content;
     padding: 20px 35px;
-    font-size: 12px;
 }
 /* FIN SECTION QUIENES SOMOS */
 
 /* SECTION GALERIA */
 #galeria{
-    min-height: 70vh;
+    min-height: 90vh;
     margin-top: 5rem;
+
     background-image: linear-gradient(to right, #F9D423, #FF4E50);
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -168,3 +186,41 @@ header div p{
 }
 
 /* FIN SECTION GALERIA */
+
+/* SECTION CONTACTO */
+
+#contacto{
+    margin-top: 5rem;
+
+    min-height: 90vh;
+
+    border-top: 15px solid grey;
+    border-bottom: 15px solid grey;
+    
+    background-image: url(../imagenes/leaves-pattern.png);
+    background-repeat: repeat;
+
+    display: flex;
+    align-items: center;
+}
+
+#contacto div{
+    margin-left: 10rem;
+
+    width: 50%;
+} 
+
+#contacto p{
+    padding: 2rem 0;
+
+    border-bottom: 15px solid grey;
+}
+/* FIN SECTION CONTACTO */
+
+/* FOOTER */
+footer{
+    min-height: 25vh;
+
+    background-color: black;
+}
+/* FIN FOOTER */
